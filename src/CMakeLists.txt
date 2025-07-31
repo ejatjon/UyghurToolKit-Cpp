@@ -1,7 +1,3 @@
-
-add_compile_options("$<$<CXX_COMPILER_ID:MSVC>:/source-charset:utf-8>")
-add_compile_options("$<$<CXX_COMPILER_ID:MSVC>:/execution-charset:utf-8>")
-
 set(SOURCES resources/dictionaries/scripts.cpp
         tools/unicode_string_convert.cpp
         resources/dictionaries/letter_normalize.cpp
