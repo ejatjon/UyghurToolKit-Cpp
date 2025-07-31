@@ -3,7 +3,7 @@
 //
 
 #include <vector>
-#include "unicode_string_convert.h"
+#include "tools/unicode_string_convert.h"
 
 CORE_API std::string utf32_to_utf8(const std::u32string& str) {
     std::string result;

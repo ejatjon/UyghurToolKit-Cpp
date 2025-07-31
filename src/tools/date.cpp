@@ -3,10 +3,10 @@
 //
 
 #include <map>
-#include "date.h"
-#include "number.h"
 #include "resources/dictionaries/date.h"
-#include "text.h"
+#include "tools/date.h"
+#include "tools/number.h"
+#include "tools/text.h"
 
 
 std::regex mk_date_regex(const std::vector<DateRegexInfo> &info) {

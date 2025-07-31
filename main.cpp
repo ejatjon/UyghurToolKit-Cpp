@@ -1,5 +1,4 @@
 ﻿#include <fstream>
-#include <functional>
 #include "tools/unicode_string_convert.h"
 #include "tools/text.h"
 

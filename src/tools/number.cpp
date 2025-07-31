@@ -3,8 +3,8 @@
 //
 #include <functional>
 #include <set>
-#include "number.h"
-#include "text.h"
+#include "tools/number.h"
+#include "tools/text.h"
 
 
 std::vector<std::tuple<int, int>> decompose_number(int num) {

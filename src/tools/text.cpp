@@ -2,7 +2,7 @@
 // Created by EjatjonAmar on 2025/6/29.
 //
 #include <functional>
-#include "text.h"
+#include "tools/text.h"
 #include "resources/dictionaries/scripts.h"
 #include "resources/dictionaries/letter_normalize.h"
 

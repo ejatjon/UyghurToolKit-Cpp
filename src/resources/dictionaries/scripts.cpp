@@ -1,10 +1,10 @@
 //
 // Created by EjatjonAmar on 2025/6/28.
 //
-
 #include <stdexcept>
 #include <functional>
-#include "scripts.h"
+#include "resources/dictionaries/scripts.h"
+
 //  这些字符是特殊字符，通常充当辅助角色
 //  特殊字符 \uFE8C(ﺌ) \uFE8B(ﺋ) \uFEFC(ﻼ) \uFEFB(ﻻ)
 //  当要输入 ئا ئۆ 等字符时，使用 ئ 代替 ﺌ  ﺋ

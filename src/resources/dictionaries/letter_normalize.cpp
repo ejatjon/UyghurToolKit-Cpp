@@ -1,7 +1,7 @@
 //
 // Created by EjatjonAmar on 2025/6/29.
 //
-#include "letter_normalize.h"
+#include "resources/dictionaries/letter_normalize.h"
 
 
 CORE_API std::map<std::u32string,std::u32string> getNormalizeMap(int letter_type){

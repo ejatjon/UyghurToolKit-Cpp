@@ -19,11 +19,14 @@
 #define API_IMPORT
 #endif
 
-
+#ifdef DLL_EXPORT
 #ifdef CORE_EXPORT
 #define CORE_API API_EXPORT
 #else
 #define CORE_API API_IMPORT
+#endif
+#else
+#define CORE_API
 #endif
 
 
