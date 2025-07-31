@@ -1,0 +1,21 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "F:/UyghurToolKit/cmake-build-debug",
+	"dir-cur-src" : "F:/UyghurToolKit",
+	"dir-top-bld" : "F:/UyghurToolKit/cmake-build-debug",
+	"dir-top-src" : "F:/UyghurToolKit",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"F:\\UyghurToolKit\\src\\."
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "F:/UyghurToolKit/cmake-build-debug/CMakeFiles/UyghurToolKit.dir"
+}

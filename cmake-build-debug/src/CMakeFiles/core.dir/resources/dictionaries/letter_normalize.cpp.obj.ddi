@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "src\\CMakeFiles\\core.dir\\resources\\dictionaries\\letter_normalize.cpp.obj",
+            "outputs": [
+                "F:\\UyghurToolKit\\cmake-build-debug\\vc140.pdb",
+                "src\\CMakeFiles\\core.dir\\resources\\dictionaries\\letter_normalize.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

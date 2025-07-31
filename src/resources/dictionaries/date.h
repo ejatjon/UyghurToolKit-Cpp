@@ -1,0 +1,23 @@
+//
+// Created by EjatjonAmar on 2025/7/5.
+//
+
+#pragma once
+
+#include <map>
+#include <string>
+#include <vector>
+
+std::map<std::string,std::vector<std::u32string>> data_prefix_suffix_map = {
+        //UEY,ULY,UYY,UKY,IPA
+        {"year_unit",{U"\u064a\u0649\u0644\u0649",U"yili",U"yili",U"",U"jili"}},
+        {"month_unit",{U"\u0626\u0627\u064a\u0646\u0649\u06ad",U"ayning",U"ayning",U"",U"ɑjniŋ"}},
+        {"day_unit",{U"\u0643\u06c8\u0646\u0649",U"küni",U"küni",U"",U"kyni"}},
+        {"hour_unit",{U"\u0633\u0627\u0626\u06d5\u062a",U"\u0073\u0061\u0065\u0074",U"\u0073\u0061\u0259\u0074",U"\u0441\u0430\u04d9\u0442",U"\u0073\u0251\u025b\u0074"}},
+        {"hour_adverb",{U"\u062f\u0649\u0646",U"\u0064\u0069\u006e",U"\u0064\u0069\u006e",U"\u0434\u0438\u043d",U"\u0064\u0069\u006e"}},
+        {"minute_unit",{U"\u0645\u0649\u0646\u06c7\u062a",U"\u006d\u0069\u006e\u0075\u0074",U"\u006d\u0069\u006e\u0075\u0074",U"\u043c\u0438\u043d\u0443\u0442",U"\u006d\u0069\u006e\u0075\u0074"}},
+        {"second_unit",{U"\u0633\u0649\u0643\u0649\u0646\u0648\u062a",U"\u0073\u00eb\u006b\u0075\u006e\u0074",U"\u0073\u0065\u006b\u0075\u006e\u0074",U"\u0441\u0435\u043a\u0443\u043d\u0442",U"\u0073\u0065\u006b\u0075\u006e\u0074\u025b"}},
+        {"millisecond_unit",{U"\u062f\u06d5\u0642\u0649\u0642\u06d5",U"\u0064\u0065\u0071\u0069\u0071\u0065",U"\u0064\u0259\u2c6a\u0069\u2c6a\u0259",U"\u0434\u04d9\u049b\u0438\u049b\u04d9",U"\u0064\u025b\u0071\u0069\u0071\u025b"}},
+        {"time_passes",{U"\u0626\u06c6\u062a\u0643\u06d5\u0646\u062f\u06d5",U"\u00f6\u0074\u006b\u0065\u006e\u0064\u0065",U"\u0275\u0074\u006b\u0259\u006e\u0064\u0259",U"\u04e9\u0442\u043a\u04d9\u043d\u0434\u04d9",U"\u00f8\u0074\u006b\u025b\u006e\u0064\u025b"}}
+};
+
